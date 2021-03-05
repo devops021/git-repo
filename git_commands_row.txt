@@ -1,0 +1,59 @@
+https://github.com/
+username : devops021
+password: mukul@-A8578
+
+To set username to git
+git config –global user.name “Mukul”
+
+To set github email to git
+git config –global user.email “mukulanand.aw@gmail.com”
+
+To check configured username and email id 
+cat ~/.gitconfig
+
+To clone a repository 
+git clone https://github.com/devops021/java.git
+
+To see the commit history
+git log
+
+To create a new git project
+git init
+
+To check the status of file we use 
+git status
+ 
+
+To add a file to git staging area
+git add readme.txt
+ 
+
+To commit
+git commit -m “First commit”
+ 
+
+ 
+
+ 
+
+First-time Git setup:
+For the first time Git configuration, you use the following commands:
+
+git config --global user.name "random”
+Using this, you will enter your GitHub username
+git config --global user.email “random@example.com”
+Using this, you will enter your GitHub username
+
+Making a commit and pushing your changes to GitHub:
+Commands to be executed are:
+git init
+git add filename
+(git add readme.txt)
+git commit -m “commit message”
+git remote add origin <url of the remote repository>
+(git remote add origin https://github.com/devops021/git-repo.git)
+
+git push -u origin master
+or 
+git push
+
