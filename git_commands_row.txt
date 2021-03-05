@@ -1,12 +1,8 @@
-https://github.com/
-username : devops021
-password: mukul@-A8578
-
 To set username to git
-git config –global user.name “Mukul”
+git config –global user.name "username"
 
 To set github email to git
-git config –global user.email “mukulanand.aw@gmail.com”
+git config –global user.email “myemail@gmail.com”
 
 To check configured username and email id 
 cat ~/.gitconfig
